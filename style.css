@@ -1,0 +1,42 @@
+/* Submitted By: Dhruv Kakadiya
+Subitted On:25-07-2022
+Instructor:Maninder Kaur Tatla */
+
+html, body{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+    font-weight: 700;
+    color: yellow;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.float-container {
+    display: flex;
+    width: 99vw;
+    justify-content: space-between;
+}
+
+.float-child {
+    background-color: rgba(0,100,57,0.7);
+    text-align: center;
+    width: 40%;
+    float: left;
+    padding: 20px;
+    border: 2px;
+    height: 500px;
+    border-radius: 20px;
+}
